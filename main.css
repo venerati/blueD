@@ -6,3 +6,37 @@
 .navbar .navbar-brand {
 	padding:12px;
 }
+
+.streamPlayer {
+	padding: 100px;
+	margin-top: 50px;
+	background-color: #E6E6E6;
+}
+
+.player{
+	height: 360px;
+	width: 640px;
+	margin: 0 auto;
+}
+
+.streamBrowser {
+	margin: 80px;
+}
+
+.player .mainStream {
+	border-color: #000;
+	border: 5px;
+}
+
+.sideBrowser {
+	padding-top: 80px;
+	padding-left: 30px;
+}
+
+.browserContainer {
+	background-color: #848484;
+}
+
+.navbar .container-fluid {
+	background-color: #848484;
+}
