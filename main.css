@@ -7,15 +7,47 @@
 	padding:12px;
 }
 
+.navCon .navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+
+.navbar .container-fluid {
+	background-color: #848484;
+}
+
+.navCon .navbar {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-centered .navbar-nav {
+    float: none;
+    text-align: center;
+}
+
+.navbar-centered .navbar-nav > li {
+    float: none;
+}
+
+.navbar-centered .nav > li {
+    display: inline;
+}
+
+.navbar-centered .nav > li > a {
+    display: inline-block;
+}
+
+
 .streamPlayer {
-	padding: 100px;
+	padding: 50px;
 	background-color: #E6E6E6;
 }
 
 .player{
-	height: 360px;
-	width: 640px;
+	max-height: 360px;
+	max-width: 640px;
 	margin: 0 auto;
+	padding: 20px;
 }
 
 .streamBrowser {
@@ -36,25 +68,7 @@
 	background-color: #848484;
 }
 
-.navbar .container-fluid {
-	background-color: #848484;
+.streamPlayer .row #testBlock {
+	border:2px solid #6F4E37;
+	height: 300px;
 }
-
-.navCon .navbar {
-	margin: 0px;
-	padding: 0px;
-}
-
-.navbar-centered .navbar-nav {
-        float: none;
-        text-align: center;
-    }
-    .navbar-centered .navbar-nav > li {
-        float: none;
-    }
-    .navbar-centered .nav > li {
-        display: inline;
-    }
-    .navbar-centered .nav > li > a {
-        display: inline-block;
-    }
