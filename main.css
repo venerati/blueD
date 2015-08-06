@@ -9,7 +9,6 @@
 
 .streamPlayer {
 	padding: 100px;
-	margin-top: 50px;
 	background-color: #E6E6E6;
 }
 
@@ -20,17 +19,17 @@
 }
 
 .streamBrowser {
-	margin: 80px;
+	margin: 0;
+	background-color: #848484;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 .player .mainStream {
 	border-color: #000;
 	border: 5px;
-}
-
-.sideBrowser {
-	padding-top: 80px;
-	padding-left: 30px;
 }
 
 .browserContainer {
@@ -40,3 +39,22 @@
 .navbar .container-fluid {
 	background-color: #848484;
 }
+
+.navCon .navbar {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-centered .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-centered .navbar-nav > li {
+        float: none;
+    }
+    .navbar-centered .nav > li {
+        display: inline;
+    }
+    .navbar-centered .nav > li > a {
+        display: inline-block;
+    }
