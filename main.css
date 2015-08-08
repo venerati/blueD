@@ -12,7 +12,7 @@
 }
 
 .navbar .container-fluid {
-	background-color: #848484;
+	background-color: #585858;
 }
 
 .navCon .navbar {
@@ -41,13 +41,19 @@
 .streamPlayer {
 	padding: 50px;
 	background-color: #E6E6E6;
+	background-image: url("Background.png");
 }
 
-.player{
+.streamPlayer .imgRemovepadding {
+	padding-right: 0px;
+}
+
+.streamPlayer .player{
 	max-height: 360px;
 	max-width: 640px;
 	margin: 0 auto;
-	padding: 20px;
+	padding-left: 0px;
+	padding-top: 10px;
 }
 
 .streamBrowser {
