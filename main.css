@@ -56,15 +56,6 @@
 	padding-top: 10px;
 }
 
-.streamBrowser {
-	margin: 0;
-	background-color: #848484;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	padding-left: 80px;
-	padding-right: 80px;
-}
-
 .player .mainStream {
 	border-color: #000;
 	border: 5px;
@@ -77,4 +68,12 @@
 .streamPlayer .row #testBlock {
 	border:2px solid #6F4E37;
 	height: 300px;
+}
+
+.streamButtons {
+	display: inline;
+}
+
+.streamButtons .buttons {
+	display: inline-block;
 }
