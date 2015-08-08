@@ -40,7 +40,11 @@
 
 .streamPlayer {
 	padding: 50px;
-	background-color: #E6E6E6;
+	padding-bottom: 5px;
+	
+}
+
+.mainContainer {
 	background-image: url("Background.png");
 }
 
@@ -49,8 +53,8 @@
 }
 
 .streamPlayer .player{
-	max-height: 360px;
-	max-width: 640px;
+	max-height: 400px;
+	max-width: 740px;
 	margin: 0 auto;
 	padding-left: 0px;
 	padding-top: 10px;
@@ -67,7 +71,7 @@
 
 .streamPlayer .row #testBlock {
 	border:2px solid #6F4E37;
-	height: 300px;
+	height:;
 }
 
 .streamButtons {
