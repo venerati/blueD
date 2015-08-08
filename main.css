@@ -37,10 +37,21 @@
     display: inline-block;
 }
 
+.navCon .navbar {
+	margin: 0px;
+	padding: 0px;
+}
+
+.titleBanner {
+	padding: 50px;
+	padding-bottom: 5px;
+	color: #999999;
+}
 
 .streamPlayer {
 	padding: 50px;
 	padding-bottom: 5px;
+	padding-top: 5px;
 	
 }
 
@@ -69,15 +80,21 @@
 	background-color: #848484;
 }
 
-.streamPlayer .row #testBlock {
-	border:2px solid #6F4E37;
-	height:;
-}
-
 .streamButtons {
 	display: inline;
 }
 
 .streamButtons .buttons {
 	display: inline-block;
+}
+
+.chatContainer {
+	padding: 50px;
+}
+
+.chatContainer #chatBox {
+	border: 2 #000000;
+	height: 300px;
+	width: 730px;
+	background-color: #1f1f1f;
 }
