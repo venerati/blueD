@@ -15,9 +15,12 @@
 	background-color: #4B4B4B;
 }
 
+.navCon .nav {
+	padding-right: 60px;
+}
+
 .navCon .navbar {
 	margin: 0px;
-	padding: 0px;
 }
 
 .navbar-centered .navbar-nav {
@@ -55,10 +58,8 @@
 
 .streamPlayer {
 	padding: 50px;
-	padding-left: 80px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	
+	padding-left: 100px;
+	padding-bottom: 10px;
 }
 
 .mainContainer {
@@ -87,13 +88,14 @@
 	padding-left: 50px;
 }
 
-.streamButtons .buttons {
-
+.streamButtons #buttons {
+	padding-left: 0px;
+	margin-left: 0px;
 }
 
 .chatContainer {
 	padding: 20px;
-	padding-left: 45px;
+	padding-left: 75px;
 	padding-right: 45px;
 	background-color: #424242;
 	margin: 0px;
