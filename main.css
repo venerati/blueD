@@ -58,7 +58,8 @@
 
 .streamPlayer {
 	padding: 50px;
-	padding-left: 100px;
+	padding-right: ;
+	padding-left: ;
 	padding-bottom: 10px;
 }
 
@@ -67,43 +68,23 @@
 }
 
 .streamPlayer .imgRemovepadding {
-	padding-right: 0px;
+	padding-right: ;
 }
 
 .streamPlayer .player{
-	max-height: 400px;
-	max-width: 740px;
 	margin: 0 auto;
-	padding-left: 0px;
+	padding-left:;
 	padding-top: 10px;
 }
 
 .player .mainStream {
 	border-color: #000;
 	border: 5px;
+	max-width: ;
 }
 
-.streamButtons {
+.streamPlayer #buttons {
 	padding: 20px;
-	padding-left: 50px;
-}
-
-.streamButtons #buttons {
-	padding-left: 0px;
-	margin-left: 0px;
-}
-
-.chatContainer {
-	padding: 20px;
-	padding-left: 75px;
-	padding-right: 45px;
-	background-color: #424242;
-	margin: 0px;
-}
-
-.chatContainer #chatBox {
-	max-height: 300px;
-	max-width: 730px;
 }
 
 #footer {
@@ -112,4 +93,11 @@
 	border: 0px;
 	color: #ffffff;
 	padding: 25px;
+}
+
+// Mixin
+.center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
