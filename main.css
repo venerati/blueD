@@ -84,11 +84,8 @@
 }
 
 .streamPlayer #buttons {
-	padding: 20px;
-}
-
-.streamPlayer #chat {
-	padding-bottom: 20px;
+	margin: 20px;
+	padding: 0px;
 }
 
 #footer {
@@ -104,4 +101,12 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.streamPlayer .embed-responsive {
+	box-shadow: 0 0 30px black;
+}
+
+.mainContainer .streamPlayer .img-shadow {
+	box-shadow: 0 0 30px black;
 }
